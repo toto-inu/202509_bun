@@ -1,11 +1,10 @@
-
 ## bunの概要
 
 - [x] all-in-oneとは？
 - [x] TypeScriptが直で実行できる？
 - [x] 実行速度が速い？
-- [ ] bunをプロダクション（実務）利用するか？
-  - [ ] reactとの統合
+- [x] bunをプロダクション（実務）利用するか？
+  - [x] reactとの統合
   - [ ] nestjsなどフレームワーク統合
 - [ ] MinIOとは？
 - [x] c++とzigの違い（nodeとbunの構築言語）
@@ -28,6 +27,8 @@ https://bun.com/docs/api/s3
 - bun.serveはデフォルトではホットロードされない
 - bunxはnpxみたいな形でプロジェクト内のpackageを参照して実行ができる
 - 環境変数は.envファイルを自動読み込み
+- bun runの--hotオプションでホットロードされる
+- reactプロジェクトはcreate-react-app的な感じに作られる
 
 
 ## 実験結果

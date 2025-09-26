@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",              // 出力するJSのバージョン
+    "module": "CommonJS",            // Node.jsならCommonJS
+    "esModuleInterop": true,         // import/exportをいい感じに
+    "strict": true,                  // 厳格モード
+    "skipLibCheck": true,            // 型定義のチェックをスキップ
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["./**/*.ts"],          // どのファイルを対象にするか
+  "exclude": ["node_modules"]
+}

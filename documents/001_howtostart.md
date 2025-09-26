@@ -1,14 +1,15 @@
 
 ## bunの概要
 
-
 - [x] all-in-oneとは？
 - [x] TypeScriptが直で実行できる？
 - [x] 実行速度が速い？
-- [ ] denoとbunの比較
-- [ ] bunを実務利用する上での懸念
+- [ ] bunをプロダクション（実務）利用するか？
+  - [ ] reactとの統合
+  - [ ] nestjsなどフレームワーク統合
 - [ ] MinIOとは？
-- [ ] c++とzigの違い（nodeとbunの構築言語）
+- [x] c++とzigの違い（nodeとbunの構築言語）
+  - https://qiita.com/Freezer/items/7d00cfbe70493f026e16
 
 ハンズオンしたいところ
 - [x] bun.serveでサーバーを立ち上げる
@@ -27,3 +28,8 @@ https://bun.com/docs/api/s3
 - bun.serveはデフォルトではホットロードされない
 - bunxはnpxみたいな形でプロジェクト内のpackageを参照して実行ができる
 - 環境変数は.envファイルを自動読み込み
+
+
+## 実験結果
+
+- cpu周りについては、中央値で5倍程度bunの方が速そう
